@@ -15,7 +15,7 @@ import (
 	"github.com/jackc/pgx/v5"
 )
 
-const version = "v1"
+const version = "v2"
 
 func main() {
 	port := os.Getenv("PORT")
